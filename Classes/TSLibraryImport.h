@@ -22,6 +22,8 @@
 //THE SOFTWARE.
 //
 
+#import <AVFoundation/AVAssetExportSession.h>
+
 #define TSLibraryImportErrorDomain @"TSLibraryImportErrorDomain"
 
 #define TSUnknownError @"TSUnknownError"
@@ -29,8 +31,6 @@
 
 #define kTSUnknownError -65536
 #define kTSFileExistsError -48 //dupFNErr
-
-typedef NSInteger AVAssetExportSessionStatus;
 
 @class AVAssetExportSession;
 
